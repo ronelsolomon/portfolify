@@ -80,7 +80,7 @@ export default function Page() {
           <a className="transition-colors hover:text-[#151515]" href="#credentials">Credentials</a>
           <a className="transition-colors hover:text-[#151515]" href="#contact">Contact</a>
         </div>
-        <a href="mailto:ronelsolomon@gmail.com" className="group flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em]">
+        <a href="#contact" className="group flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em]">
           Let&apos;s talk <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </a>
       </nav>
