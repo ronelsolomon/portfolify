@@ -1,0 +1,104 @@
+
+
+Ronel Solomon 
+Machine Learning Engineer 
+Metaphor Data 
+The project I worked on at Metaphor Data aims to address a common issue 
+known as the cold start problem, which arises when new users must manually enter 
+content into the system for it to be indexed and searchable. Currently, updates are 
+unclear, and there is a pressing need for better organization, particularly within threads. 
+My role involves developing a Slack/Teams bot design to retrieve all threads from a 
+channel and identify conversations, deemed to contain institutional knowledge for the 
+client. The primary objective is ensuring the accurate matching of assets with Slack 
+messages. While some matching scenarios are successful, others may encounter 
+issues. Some tasks I worked on in my internship included creating a post/notice to be 
+executed manually from Slack, improving vector search criteria, and enhancing Slack 
+URL retrieval for external clients. Ethics is important to this project because the Slack 
+bot handles sensitive data that can be used to help get similar assets, make decisions 
+without users' consent, and show fairness, transparency, and accountability. Throughout 
+this paper, I will discuss many of the ethical implications of this project in Metaphor 
+Data. 
+When the Slack bot retrieves the message, Justice/Fairness and Privacy ethics 
+say that the individual personal information should be respected and protected. My 
+project at Metaphor data takes the user's data, to summarize and train the model to find 
+an Asset. This may violate the Justice/Fairness perspective ethical lens. Moreover, this 
+may raise privacy concerns as the bot should respect the users privacy concerns. Since 
+Slack can save the whole message history, it is important getting the important data 
+required to match the correct asset. Metaphor Data solves this issue while in the AWS 
+logs, the company removes the owner of the conversation, so we do not see who wrote 
+the message. They would change the name to be binary encoded. Something I noticed 
+when doing my work. So when an Asset is saved in Metaphor Data, we will see the 
+threads that relate to that Asset, but not know the names of those who wrote those 
+messages. Likewise, if a name appears in the messages, there may be concerns. One 
+of the options provided by Metaphor Data is that customers have different options to 
+summarize the thread. When summarizing the thread. The model will remove the name 
+and refer the name to a user. In that way, no personal names will be shown in the 
+Metaphor app. This leads to care ethics by telling customers that Metaphor Data 
+prioritizes the customer's privacy and security, before the bot. 
+Another ethical concern, especially from the justice ethical lens, promote equal 
+treatment and access to resources. Our goal is to prevent the risk of misuse of any 
+personal data. The Slack bot has some security with unauthorized access. One way 
+Metaphor Data and Slack handle this privacy concern is by allowing our customers to 
+register the bot in a specific channel. If users allow the bot to enter the channel, they 
+can read all the messages within that channel. Similarly, if a bot does not have access 
+to a specific channel, it cannot read the messages within it.This allows fairness and 
+opportunity for customers to engage with the bot from a specific channel. 
+The next ethical concern in my project is the transparency and Accountability 
+ethic of providing consent to both the Slack bot and the user. Based on the justice 
+ethical lens, users should be informed on how their data is used all the time. Customers 
+
+by the Virtue ethic should be aware of the full capabilities of the Slack bot, upholding 
+their integrity. Following some of the principles of Explainable AI, Metaphor Data 
+provides comprehensive documentation of the bot. Showing the user what the bot does, 
+when certain conversations are flagged, and where the data goes. They even have a 
+separate Slack channel and emails to allow customers to ask questions and concerns. 
+Another ethical focus is obtaining consent to use people’s threads. From the app, Slack 
+messages will be saved internally with the related asset. To address the issue of 
+obtaining consent, customers are presented with a document to agree to during login 
+like many web pages. Given the history of threads, some customers may have stopped 
+using Metaphor. It would be considerate to notify them via email about the updated form 
+indicating that their Slack messages might be used. This way, customers can be 
+informed even if their messages are shared internally. Also, Metaphor Data should be 
+professionally responsible and accountable with the Slack bot.  
+Another ethical concern would be giving accountability to the Slack bot, 
+especially assigning it the responsibility to find the correct asset for users. We wouldn’t 
+want to anger customers by providing them with the wrong asset. Justice mentions 
+“holding all persons and actions to the same moral standards” (Vallor, S., Raicu, I., & 
+Green, B.). Additionally, our approach should follow the Utilitarian approach, where we 
+weigh the happiness resulting from our actions. That is why I was tasked with creating 
+another algorithm that detects if the message has a Related Asset. If the asset isn’t 
+related to the message, I can display a message stating “No Asset is found”, instead of 
+providing an incorrect asset match. My goal is to ensure customer satisfaction and 
+provide the best possible asset. 
+Furthermore, I aim to minimize the occurrence of "No Asset Found" messages. 
+The ethical concern for fairness and bias arises when an asset is derived from a thread 
+message that may not be related to the conversation. During my internship, I 
+engineered a model to determine if the assets were related to a message. However, the 
+model can be biased and misclassify the asset. Overall, I mitigated this bias was by 
+creating a test set and evaluating precision/recall from it. Even with these performance 
+results, there may still be perceived bias in the outcome. This enhances fairness within 
+the bot. 
+In the "Create a Post" feature, I allowed the user to suggest an asset by pressing 
+a button. This grants users control over the bot's actions following the XAI guidelines. 
+Therefore, giving transparency and care to users. In addition, we should present the 
+description of the button in a format that is appealing to the customer. This way, the 
+customer will feel comfortable with the Suggestion box. 
+Another minor ethical concern to consider is the speed of asset retrieval. From 
+the virtue ethic, customers should strive for excellence while working on this project. My 
+task is to provide the fastest speed to obtain a related asset. We don’t want to waste 
+resources on the computational cost of Metaphor Data or the customer's time. Priority is 
+given to obtaining the asset in the fastest and most accurate manner possible. 
+Throughout this paper, we discussed Justice/Fairness, Privacy, Care, 
+utilitarianism, and Common Good ethics. Here, we see the Slack bot's goal is to benefit 
+the user community by increasing the efficiency of retrieving resources faster, improving 
+productivity by reducing time spent manually searching for information and making the 
+bot faster, fair, accurate, and accessible to its users. Overall, we discussed not wanting 
+
+to anger the user and how Metaphor Data addresses many of the ethical concerns, 
+such as removing names. To continue my project, I don’t yet know the long-term 
+impacts this new bot will have. There may be unidentified consequences that need to be 
+addressed. I suggest that Metaphor Data continue to consider customer needs while 
+striving to mitigate and improve the performance of my bot. As for my career, I learned 
+to put myself in the customer's shoes when they use the product. 
+ 
+ 
