@@ -77,6 +77,7 @@ export default function Page() {
         <div className="hidden items-center gap-8 text-xs font-semibold uppercase tracking-[0.18em] text-[#696964] md:flex">
           <a className="transition-colors hover:text-[#151515]" href="#work">Selected work</a>
           <a className="transition-colors hover:text-[#151515]" href="#experience">Experience</a>
+          <a className="transition-colors hover:text-[#151515]" href="#case-study">Case study</a>
           <a className="transition-colors hover:text-[#151515]" href="#credentials">Credentials</a>
           <a className="transition-colors hover:text-[#151515]" href="#contact">Contact</a>
         </div>
@@ -121,6 +122,33 @@ export default function Page() {
           <article className="group flex min-h-[300px] flex-col justify-between border border-[#d1d0c9] p-7 transition-colors hover:bg-white sm:p-10 lg:col-span-2 lg:flex-row lg:items-end"><div className="flex items-start gap-5"><span className="flex size-12 items-center justify-center rounded-full border border-[#d1d0c9]"><Database className="size-5" /></span><div><p className="mb-3 font-mono text-xs uppercase tracking-[0.16em] text-[#8a950f]">Infrastructure · Knowledge systems</p><h3 className="max-w-xl text-4xl font-semibold leading-none tracking-[-0.06em]">Making institutional knowledge findable.</h3></div></div><div className="mt-8 lg:mt-0"><p className="max-w-sm text-sm leading-relaxed text-[#6b6b65]">Vector search, conversational datasets, and Slack / Teams bots that turn 1,000+ conversations into useful answers.</p><div className="flex flex-wrap gap-5"><a href="https://docs.google.com/document/d/1Gh2WuG5Vmttg64OuxLgl2vVVAC8zONB-rxrqWAEuN1o/edit?tab=t.0" target="_blank" rel="noreferrer" className="mt-6 inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-[#151515] underline-offset-4 hover:underline">Read Metaphor report <ArrowUpRight className="size-4" /></a></div></div></article>
           <article className="group relative min-h-[300px] overflow-hidden bg-[#171817] p-7 text-[#f5f3ee] transition-transform hover:-translate-y-1 sm:p-10"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mwfQ1N7JjUUQVohmtDsc3OMMdqAfLX.png" alt="Visa Intern 2022 badge" className="absolute right-7 top-7 size-24 object-contain sm:right-10 sm:top-10" /><div className="relative flex h-full flex-col justify-between"><div><p className="mb-4 font-mono text-xs uppercase tracking-[0.16em] text-[#d6ff3f]">Visa · Internship</p><h3 className="max-w-xs text-4xl font-semibold leading-none tracking-[-0.06em]">Learning where payments scale.</h3></div><p className="max-w-sm text-sm leading-relaxed text-[#b5b7ae]">A visual snapshot from my Visa internship, where I built context around data, systems, and the people operating them.</p></div></article>
           <article className="group flex min-h-[300px] flex-col justify-between border border-[#d1d0c9] p-7 transition-colors hover:bg-white sm:p-10"><div><p className="mb-4 font-mono text-xs uppercase tracking-[0.16em] text-[#8a950f]">Colt · Presentation</p><h3 className="max-w-sm text-4xl font-semibold leading-none tracking-[-0.06em]">A closer look at the work.</h3></div><div><p className="max-w-sm text-sm leading-relaxed text-[#6b6b65]">Browse the project presentation and see how the thinking comes together.</p><a href="https://docs.google.com/presentation/d/1sAHISe_1rgF5UUQxiY7FB1Mp3ojzP58UsYaJrhtV60E/edit" target="_blank" rel="noreferrer" className="mt-6 inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-[#151515] underline-offset-4 hover:underline">View Colt presentation <ArrowUpRight className="size-4" /></a></div></article>
+        </div>
+      </section>
+
+      <section id="case-study" className="scroll-mt-10 bg-[#d6ff3f] px-6 py-24 lg:px-10 lg:py-32">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-20">
+            <div>
+              <p className="mb-4 font-mono text-xs uppercase tracking-[0.2em] text-[#5d660e]">Case study / Systems design</p>
+              <h2 className="max-w-md text-5xl font-semibold leading-[0.9] tracking-[-0.07em] sm:text-7xl">From campaign brief to a safer launch.</h2>
+              <p className="mt-6 max-w-sm text-sm leading-relaxed text-[#4f580e]">A multi-agent advertising platform concept designed to coordinate creative generation, budget pacing, external ad APIs, and closed-loop optimization.</p>
+            </div>
+            <div className="grid gap-8">
+              <div className="grid gap-4 border-t border-[#a7c52f] pt-5 sm:grid-cols-3 sm:gap-8">
+                <div><p className="font-mono text-[10px] uppercase tracking-[0.15em] text-[#697615]">01 / Problem</p><p className="mt-3 text-lg leading-snug tracking-[-0.03em]">Ad operations span too many tools, with slow feedback between targeting, creative, spend, and performance.</p></div>
+                <div><p className="font-mono text-[10px] uppercase tracking-[0.15em] text-[#697615]">02 / Approach</p><p className="mt-3 text-lg leading-snug tracking-[-0.03em]">Separate agents own orchestration, targeting, creative, safety, execution, and analytics instead of one fragile prompt.</p></div>
+                <div><p className="font-mono text-[10px] uppercase tracking-[0.15em] text-[#697615]">03 / Outcome</p><p className="mt-3 text-lg leading-snug tracking-[-0.03em]">A traceable loop that can quarantine uncertainty, retry isolated steps, and rebalance campaigns from live metrics.</p></div>
+              </div>
+              <div className="bg-[#171817] p-6 text-[#f5f3ee] sm:p-8">
+                <div className="mb-8 flex items-center justify-between"><p className="font-mono text-[10px] uppercase tracking-[0.15em] text-[#d6ff3f]">System flow</p><p className="font-mono text-[10px] uppercase tracking-[0.15em] text-[#8c8e86]">Brief → decision → feedback</p></div>
+                <div className="grid gap-3 text-sm sm:grid-cols-5 sm:items-center sm:gap-2">
+                  {['Campaign brief', 'Orchestrator', 'Guardrails', 'Execution', 'Analytics loop'].map((step, index) => <div key={step} className="flex items-center gap-2"><div className="flex min-h-12 flex-1 items-center border border-[#484b45] px-3 font-mono text-[10px] uppercase tracking-[0.08em] text-[#d6ff3f]">{step}</div>{index < 4 && <span className="hidden text-[#8c8e86] sm:block">→</span>}</div>)}
+                </div>
+                <p className="mt-7 max-w-2xl text-sm leading-relaxed text-[#b5b7ae]">The important design choice is not “more agents.” It is clear boundaries: structured messages between services, durable event handoffs, human review for low-confidence matches, and observable state transitions when something fails.</p>
+              </div>
+              <div className="flex flex-wrap gap-2">{['CrewAI / AutoGen', 'Postgres + PGVector', 'Kafka', 'ClickHouse', 'Redis', 'Google / Meta / TikTok APIs'].map((tag) => <span key={tag} className="border border-[#a7c52f] px-2 py-1 font-mono text-[10px] uppercase tracking-[0.1em] text-[#5d660e]">{tag}</span>)}</div>
+            </div>
+          </div>
         </div>
       </section>
 
