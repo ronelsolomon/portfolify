@@ -78,7 +78,7 @@ export default function Page() {
         <div className="relative flex min-h-[290px] items-end justify-end lg:pt-24">
           <div className="absolute right-4 top-0 size-52 rounded-full border border-[#d7d6ce] sm:size-64" />
           <div className="absolute right-20 top-16 size-36 rounded-full bg-[#d6ff3f] sm:size-44" />
-          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Thomas_Walking-qiTedVbvsZvVqUSyKT2lRosKVQMd3s.gif" alt="Pixel-art character walking" className="absolute bottom-2 left-2 z-20 size-28 object-contain sm:left-8 sm:size-36" />
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Thomas_Walking-qiTedVbvsZvVqUSyKT2lRosKVQMd3s.gif" alt="Pixel-art character walking" className="absolute -bottom-7 right-0 z-20 size-24 object-contain sm:-bottom-9 sm:right-2 sm:size-32" />
           <div className="relative z-10 w-full max-w-xs bg-[#171817] p-6 text-[#f5f3ee] shadow-[14px_14px_0_#dadbd2]">
             <div className="mb-12 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.18em] text-[#b5b7ae]"><span>Currently thinking</span><Sparkles className="size-4 text-[#d6ff3f]" /></div>
             <p className="text-2xl leading-tight tracking-[-0.04em]">How can data move from a pipeline to a better decision?</p>
